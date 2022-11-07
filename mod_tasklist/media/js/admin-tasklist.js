@@ -35,7 +35,7 @@ function tasklist() {
     }
   });
   document.getElementById("clear-completed").addEventListener("click", function () {
-      deleteIndexes = [];
+      const deleteIndexes = [];
       document.querySelectorAll(".card.checked").forEach(function (card) {
         deleteIndexes.push(
           [...document.querySelectorAll(".tasks .card")].indexOf(card)
