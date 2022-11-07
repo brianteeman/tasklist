@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="4.0" method="upgrade" client="administrator">
+	<name>MOD_TASKLIST</name>
+	<author>Brian Teeman</author>
+	<creationDate>2022-11</creationDate>
+	<copyright>(C) 2022 Brian Teeman</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>brian@teeman.net</authorEmail>
+	<authorUrl>https://brian.teeman.net</authorUrl>
+	<version>1.0.0</version>
+	<description>MOD_TASKLIST_XML_DESCRIPTION</description>
+	<element>mod_tasklist</element>
+    <files>
+        <filename module="mod_tasklist">mod_tasklist.php</filename>
+        <filename>mod_tasklist.xml</filename>
+        <folder>tmpl</folder>
+        <folder>language</folder>
+    </files>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/mod_tasklist.ini</language>
+        <language tag="en-GB">en-GB/mod_tasklist_sys.ini</language>
+    </languages>
+	<media destination="mod_tasklist" folder="media">
+		<folder>css</folder>
+		<folder>js</folder>
+	</media>
+    <updateservers>
+        <server type="extension" priority="1" name="Tasklist administrator module">https://raw.githubusercontent.com/rianteeman/mod_tasklist/main/update/mod_tasklist.xml</server>
+    </updateservers>
+</extension>

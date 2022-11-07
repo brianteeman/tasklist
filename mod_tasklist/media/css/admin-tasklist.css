@@ -1,0 +1,147 @@
+/* toolbar button */
+.header-item details {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-item details summary {
+  list-style: none;
+}
+
+/* fake popup */
+.details-popup {
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.details-popup-overlay {
+  transition: opacity 0.2s ease-out;
+  pointer-events: none;
+  background: rgba(15, 23, 42, 0.8);
+  position: fixed;
+  opacity: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+details[open] .details-popup-overlay {
+  pointer-events: all;
+  opacity: 0.5;
+}
+
+/* popup content */
+.joomla-tasks .txt-input {
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  background-color: var(--white);
+  border: 1px solid var(--template-bg-dark-20);
+  width: 100%;
+  padding: .5rem 1rem;
+}
+
+.joomla-tasks ul {
+  padding: 0;
+  margin-bottom: 0.2rem;
+}
+
+.joomla-tasks .card {
+  flex-direction: row;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.joomla-tasks .card.add {
+  margin: 0.5rem 0;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.joomla-tasks .tasks .card {
+  border-radius: unset;
+}
+
+.joomla-tasks .cb-container {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid var(--template-bg-dark-20);
+  position: relative;
+}
+.joomla-tasks .cb-container input {
+  transform: scale(1.8);
+  opacity: 0;
+  }
+
+.joomla-tasks .cb-container input:checked + .check {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="green" d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.joomla-tasks p {
+  flex: 1;
+  margin: 0;
+  color: initial;
+}
+
+.joomla-tasks .checked p {
+  text-decoration: line-through;
+  color: var(--gray-500);
+}
+
+.joomla-tasks .clear {
+  width: 1.3rem;
+  height: 1.3rem;
+  border: none;
+  opacity: 0.1;
+  transition: opacity 0.5s ease;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="red" d="M135.2 17.7C140.6 6.8 151.7 0 163.8 0H284.2c12.1 0 23.2 6.8 28.6 17.7L320 32h96c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 96 0 81.7 0 64S14.3 32 32 32h96l7.2-14.3zM32 128H416V448c0 35.3-28.7 64-64 64H96c-35.3 0-64-28.7-64-64V128zm96 64c-8.8 0-16 7.2-16 16V432c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zm96 0c-8.8 0-16 7.2-16 16V432c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zm96 0c-8.8 0-16 7.2-16 16V432c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.joomla-tasks .card:hover .clear {
+  opacity: 1;
+}
+
+.joomla-tasks .stat {
+  border-radius: 0 0 0.5rem 0.5rem;
+  margin-top: 0.5rem;
+  color: var(--gray-500);
+  justify-content: space-between;
+}
+
+.joomla-tasks .btn.on {
+  background-color: var(--template-bg-dark-60);
+  border-color: var(--template-bg-dark-60);
+  color: var(--template-text-light);
+}
+
+.joomla-tasks li {
+  border-bottom: 1px solid var(--template-bg-dark-20);
+}
+
+.joomla-tasks li:last-of-type {
+  border-bottom: 0;
+}
+
+.joomla-tasks .completed li:not(.checked),
+.joomla-tasks .active li.checked {
+  transition: 0.4s;
+  opacity: 0;
+  padding: 0;
+  border: 0;
+  height: 0;
+  pointer-events: none;
+}

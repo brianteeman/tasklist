@@ -1,0 +1,23 @@
+<updates>
+	<update>
+		<name>Tasklist Module</name>
+		<description>This module allows you to add tasks and mark them as complete. They are stored in your web browser and cannot be accessed by anyone else. This module is intended to be published in the 'status' position with access set to 'special'.</description>
+		<element>mod_tasklist</element>
+		<type>module</type>
+		<version>1.0.0</version>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/brianteeman/tasklist/releases/1.0.0/mod_tasklist.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<infourl title="Tasklist Module on GitHub">
+			https://github.com/brianteeman/tasklist/blob/main/README.md
+		</infourl>
+		<maintainer>Brian Teeman</maintainer>
+		<maintainerurl>https://brian.teeman.net</maintainerurl>
+		<targetplatform name="joomla" version="4.[0123]"/>
+		<section>Updates</section>
+		<client>administrator</client>
+	</update>
+</updates>
