@@ -109,6 +109,7 @@ function addTask(tasks = JSON.parse(localStorage.getItem("tasks"))) {
       itemsLeft.textContent = document.querySelectorAll(
         ".tasks .card:not(.checked)"
       ).length;
+      itemsLeft.textContent = Joomla.Text._('MOD_TASKLIST_TODO') . replace('%s', itemsLeft.textContent);
     });
     button.addEventListener("click", function () {
       const correspondingCard = this.parentElement;
@@ -122,6 +123,7 @@ function addTask(tasks = JSON.parse(localStorage.getItem("tasks"))) {
           itemsLeft.textContent = document.querySelectorAll(
             ".tasks .card:not(.checked)"
           ).length;
+          itemsLeft.textContent = Joomla.Text._('MOD_TASKLIST_TODO') . replace('%s', itemsLeft.textContent);
         }, 100);
     });
     cbContainer.appendChild(cbInput);
