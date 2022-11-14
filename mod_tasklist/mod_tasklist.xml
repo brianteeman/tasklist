@@ -25,6 +25,6 @@
 		<folder>js</folder>
 	</media>
 	<updateservers>
-		<server type="extension" priority="1" name="Tasklist administrator module">https://raw.githubusercontent.com/rianteeman/mod_tasklist/main/update/mod_tasklist.xml</server>
+		<server type="extension" priority="1" name="Tasklist administrator module">https://raw.githubusercontent.com/brianteeman/mod_tasklist/main/update/mod_tasklist.xml</server>
 	</updateservers>
 </extension>
