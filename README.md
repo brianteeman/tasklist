@@ -1,6 +1,6 @@
 # Tasklist for Joomla 4
 
-![CLEAN (1)](https://user-images.githubusercontent.com/1296369/201726259-ce0cad59-817a-449d-853a-08df206fb2ff.png)
+![CLEAN (3)](https://user-images.githubusercontent.com/1296369/202254460-be467739-1410-441a-af6a-c3fb63abc885.png)
 
 This module allows you to add tasks and mark them as complete. They are stored in your web browser and cannot be accessed by anyone else. This module is intended to be published in the 'status' position with access set to 'special'.
 
