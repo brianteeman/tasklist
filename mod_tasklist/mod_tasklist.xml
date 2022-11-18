@@ -18,7 +18,7 @@
 	</files>
 	<languages folder="language">
 		<language tag="en-GB">en-GB/mod_tasklist.ini</language>
-		<language tag="en-GB">en-GB/mod_tasklist_sys.ini</language>
+		<language tag="en-GB">en-GB/mod_tasklist.sys.ini</language>
 	</languages>
 	<media destination="mod_tasklist" folder="media">
 		<folder>css</folder>
