@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="4.0" method="upgrade" client="administrator">
-	<name>MOD_TASKLIST</name>
+	<name>mod_tasklist</name>
 	<author>Brian Teeman</author>
 	<creationDate>2022-11</creationDate>
 	<copyright>(C) 2022 Brian Teeman</copyright>
