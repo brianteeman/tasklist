@@ -7,14 +7,13 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>brian@teeman.net</authorEmail>
 	<authorUrl>https://brian.teeman.net</authorUrl>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<description>MOD_TASKLIST_XML_DESCRIPTION</description>
 	<element>mod_tasklist</element>
 	<files>
 		<filename module="mod_tasklist">mod_tasklist.php</filename>
 		<filename>mod_tasklist.xml</filename>
 		<folder>tmpl</folder>
-		<folder>language</folder>
 	</files>
 	<languages folder="language">
 		<language tag="en-GB">en-GB/mod_tasklist.ini</language>
