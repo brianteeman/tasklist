@@ -7,7 +7,7 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>brian@teeman.net</authorEmail>
 	<authorUrl>https://brian.teeman.net</authorUrl>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<description>MOD_TASKLIST_XML_DESCRIPTION</description>
 	<element>mod_tasklist</element>
 	<files>

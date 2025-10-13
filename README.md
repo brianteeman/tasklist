@@ -6,7 +6,7 @@ This module allows you to add tasks and mark them as complete. They are stored i
 
 Unlike other extensions it can be accessed at anytime in any place without disrupting your current work.
 
-Compatible with Joomla 4 & 5
+Compatible with Joomla 4, 5 & 6
 
 https://user-images.githubusercontent.com/1296369/200381060-b1fe568e-1cfb-4f3f-bf16-12f3ae53e5d0.mp4
 

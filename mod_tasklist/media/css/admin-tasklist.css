@@ -54,6 +54,7 @@ details[open] .details-popup-overlay {
   flex-direction: row;
   padding: 1rem;
   gap: 2rem;
+  background: var(--body-bg);
 }
 
 .joomla-tasks .card.add {
